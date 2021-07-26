@@ -1,7 +1,7 @@
 #lowercard{
     border-radius: 7px;
     margin-top: 10px;
-    box-shadow: 2px 2px 10px rgba(45,45,45,0.5);
+    box-shadow: 2px 2px 10px rgba(45,45,45,1);
     margin-bottom: 10px;
     padding: 10px;
 }
