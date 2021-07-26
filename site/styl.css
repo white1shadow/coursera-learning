@@ -1,0 +1,25 @@
+#lowercard{
+    border-radius: 7px;
+    border-style: solid;
+    
+    padding: 10px 10px 10px 10px;
+}
+header li {
+   /* background-color: rgba(45,45,45,0.1);
+    padding: 2px;*/
+    list-style: none;
+}
+header a:link,a:visited {
+    text-decoration: none;
+    background-color: gray;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+}
+footer a:link,a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color:cornflowerblue;
+    color: purple;
+}
