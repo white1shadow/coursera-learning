@@ -36,6 +36,8 @@ footer a:link,a:visited {
 }
 body{
     border-style: dashed;
+    margin: 0;
+    padding: 0;
 }
 a:hover, a:active {
     background-color:cornflowerblue;
