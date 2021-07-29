@@ -6,6 +6,9 @@ a{
     color: grey;
     border-style: dashed;
 }
+#bg{
+    background: url("abc.jpg") no-repeat;
+}
 #navbar {
     width: 100%;
     border-style: dashed;
