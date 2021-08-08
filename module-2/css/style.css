@@ -5,16 +5,33 @@ h1{
     text-align: center;
     color: rebeccapurple;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 .box{
     border: 2px solid black;
     font-size: 1.25em;
+    background-color: cornsilk;
+    overflow: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 .small-box{
-    position: relative;
     border: 1px solid black;
     float: right;
     font-size: 1.4em;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin: 0%;
+    overflow: none;
+}
+p{
+    margin-top: 10%;
 }
 #first{
     background-color: rgba(86, 86, 206, 0.774);
@@ -24,4 +41,22 @@ h1{
 }
 #third{
     background-color: rgb(208, 255, 0);
+}
+@media (min-width: 992px){
+    .big{
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .mid{
+        float: left;
+        width: 50%;
+    }
+}
+@media (max-width: 767px){
+    .small{
+        float: left;
+        width: 100%;
+    }
 }
