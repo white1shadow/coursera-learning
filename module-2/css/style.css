@@ -30,10 +30,10 @@ body{
     float: right;
     margin: 0;
     overflow: none;
-    padding: 2px; 
+    padding: 2px;
 }
 p{
-    margin-top: 12%;
+    margin-top: 13%;
 }
 #first{
     background-color: rgba(86, 86, 206, 0.774);
@@ -44,6 +44,7 @@ p{
 #third{
     background-color: rgb(208, 255, 0);
 }
+
 @media (min-width: 992px){
     .big{
         float: left;
@@ -54,11 +55,19 @@ p{
     .mid{
         float: left;
         width: 50%;
+        margin-top: 10px;
     }
+    #trd{
+        width: 100%;
+    }
+    #trd p {
+        margin-top: 5%;
+    } 
 }
 @media (max-width: 767px){
     .small{
         float: left;
         width: 100%;
+        margin-top: 3px;
     }
 }
